@@ -1,0 +1,3314 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* documents_spreadsheet
+# 
+# Translators:
+# Link Up링크업 <linkup.way@gmail.com>, 2020
+# Seongseok Shin <shinss61@hotmail.com>, 2020
+# Martin Trigaux, 2020
+# Linkup <link-up@naver.com>, 2021
+# JH CHOI <hwangtog@gmail.com>, 2021
+# Daye Jeong, 2023
+# Sarah Park, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-26 08:42+0000\n"
+"PO-Revision-Date: 2020-09-07 08:19+0000\n"
+"Last-Translator: Sarah Park, 2023\n"
+"Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: documents_spreadsheet
+#: code:addons/documents_spreadsheet/wizard/save_spreadsheet_template.py:0
+#, python-format
+msgid "\"%s\" saved as template"
+msgstr "\"%s\" 저장된 양식"
+
+#. module: documents_spreadsheet
+#: code:addons/documents_spreadsheet/models/spreadsheet_template.py:0
+#, python-format
+msgid "%s (copy)"
+msgstr "%s (사본)"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "%s Columns left"
+msgstr "%s 왼쪽 열"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "%s Columns right"
+msgstr "%s 오른쪽 열"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "%s Rows above"
+msgstr "%s 행 위"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "%s Rows below"
+msgstr "%s 행 아래"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/components/spreadsheet_pivot_dialog.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/functions/pivot_functions.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/pivot_utils.js:0
+#, python-format
+msgid "(Undefined)"
+msgstr "(정의되지 않음)"
+
+#. module: documents_spreadsheet
+#: model:ir.model.constraint,message:documents_spreadsheet.constraint_spreadsheet_contributor_spreadsheet_user_unique
+msgid "A combination of the spreadsheet and the user already exist"
+msgstr "스프레드 시트와 사용자의 조합이 이미 존재합니다"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "A conditional count across a range."
+msgstr "범위내의 조건을 만족하는 개수입니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "A conditional sum across a range."
+msgstr "범위내의 조건을 만족하는 합계입니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "A number raised to a power."
+msgstr "거듭제곱한 숫자."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "A number with the sign reversed."
+msgstr "부호가 반전된 숫자."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "A random number between 0 inclusive and 1 exclusive."
+msgstr "0을 포함하고 1을 제외한 두 숫자 사이의 임의의 수입니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "A specified number, unchanged."
+msgstr "변경되지 않은 지정된 숫자입니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "A substring from the end of a specified string."
+msgstr "지정된 문자열의 끝 부분 문자열입니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "AND has no valid input data."
+msgstr "AND에 유효한 입력 데이터가 없습니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "AVERAGE.WEIGHTED expects number values."
+msgstr "AVERAGE.WEIGHTED에는 숫자 값이 필요합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "AVERAGE.WEIGHTED expects the weight to be positive or equal to 0."
+msgstr "AVERAGE.WEIGHTED는 가중치가 양수이거나 0과 같을 것으로 예상합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "AVERAGE.WEIGHTED has mismatched range sizes."
+msgstr "AVERAGE.WEIGHTED에 일치하지 않는 범위 크기가 있습니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
+#, python-format
+msgid "Add a new filter..."
+msgstr "새 필터 추가"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Angle from the X axis to a point (x,y), in radians."
+msgstr "X 축에서 점 (x, y)까지의 각도."
+
+#. module: documents_spreadsheet
+#: model_terms:ir.ui.view,arch_db:documents_spreadsheet.save_spreadsheet_template_view_form
+msgid ""
+"Any user will be able to create a new spreadsheet based on this template."
+msgstr "모든 사용자는 이 템플릿을 기반으로 신규 스프레드 시트를 만들 수 있습니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Appends strings to one another."
+msgstr "문자열을 서로 추가합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Are you sure you want to delete this sheet ?"
+msgstr "이 시트를 삭제 하시겠습니까?"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Automatic"
+msgstr "자동"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Average magnitude of deviations from mean."
+msgstr "평균 편차의 평균 크기입니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Average of a set of values from a table-like range."
+msgstr "표와 같은 범위의 값 집합 평균입니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Average of values depending on criteria."
+msgstr "기준에 따른 값의 평균."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Average of values depending on multiple criteria."
+msgstr "여러 기준에 따른 값의 평균입니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Bar"
+msgstr "막대그래프"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Begins with"
+msgstr "시작"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Between"
+msgstr "사이"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/xml/template_dialog.xml:0
+#, python-format
+msgid "Blank"
+msgstr "공백"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Bold"
+msgstr "굵게"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/spreadsheet_selector_dialog.js:0
+#: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
+#: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
+#: code:addons/documents_spreadsheet/static/src/xml/template_dialog.xml:0
+#: model_terms:ir.ui.view,arch_db:documents_spreadsheet.save_spreadsheet_template_view_form
+#, python-format
+msgid "Cancel"
+msgstr "취소"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Chart"
+msgstr "차트"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Chart type"
+msgstr "차트 유형"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Circular reference"
+msgstr "순환참조"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Clear cell"
+msgstr "셀 삭제"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Clear column %s"
+msgstr "%s열 삭제"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Clear columns %s - %s"
+msgstr " %s - %s열 삭제"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Clear row %s"
+msgstr "%s행 삭제"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Clear rows %s - %s"
+msgstr " %s - %s 행 삭제"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Column left"
+msgstr "왼쪽 열"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Column right"
+msgstr "오른쪽 열"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Combines text from multiple strings and/or arrays."
+msgstr "여러 문자열 그리고/또는 배열로부터 문자 병합"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Concatenates elements of arrays with delimiter."
+msgstr "구분 기호를 사용하여 배열 요소를 연결합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Concatenation of two values."
+msgstr "두 값의 연결."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Conditional formatting"
+msgstr "조건부 서식 "
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/spreadsheet_selector_dialog.js:0
+#: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
+#: model_terms:ir.ui.view,arch_db:documents_spreadsheet.save_spreadsheet_template_view_form
+#, python-format
+msgid "Confirm"
+msgstr "확인"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Contains text"
+msgstr "문자 포함"
+
+#. module: documents_spreadsheet
+#: model:ir.actions.act_window,name:documents_spreadsheet.spreadsheet_contributor_action
+#: model:ir.ui.menu,name:documents_spreadsheet.menu_technical_spreadsheet_contributor
+msgid "Contributors"
+msgstr "도움을 주신 분들"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Converts a date string to a date value."
+msgstr "십진수 값을 소수로 변환합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Converts a specified string to lowercase."
+msgstr "지정된 문자열을 소문자로 변환합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Converts a specified string to uppercase."
+msgstr "지정된 문자열을 대문자로 변환합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Converts a time string into its serial number representation."
+msgstr "시간 문자열을 일련번호 식으로 변환합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Converts an angle value in radians to degrees."
+msgstr "각도 값을 라디안 단위에서 도 단위로 변환합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Converts from another base to decimal."
+msgstr "다른 기수를 십진수로 변환합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Converts hour/minute/second into a time."
+msgstr "시/분/초를 시간으로 변환합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Converts year/month/day into a date."
+msgstr "년/월/일을 날짜로 변환합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Copy"
+msgstr "사본"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Copy of %s"
+msgstr "%s의 사본"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Cosecant of an angle provided in radians."
+msgstr "라디안 단위 각도의 코시컨트."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Cosine of an angle provided in radians."
+msgstr "라디안 단위 각도의 코사인."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Cotangent of an angle provided in radians."
+msgstr "라디안 단위 각도의 코탄젠트"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/components/spreadsheet_pivot_dialog.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/context_menu/pivot_side_panel.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/functions/pivot_functions.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/pivot_utils.js:0
+#, python-format
+msgid "Count"
+msgstr "개수"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Count values depending on multiple criteria."
+msgstr "다양한 기준에 따라 값을 계산합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Counts number of unique values in a range, filtered by a set of criteria."
+msgstr "기준 집합에 따라 필터링된 범위 내 고유 값의 수를 계산합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Counts number of unique values in a range."
+msgstr "범위 내 고유 값의 수를 계산합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Counts values and text from a table-like range."
+msgstr "표와 같은 범위에서 값과 텍스트를 계산합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Counts values from a table-like range."
+msgstr "표와 같은 범위에서 값을 계산합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/xml/template_dialog.xml:0
+#, python-format
+msgid "Create"
+msgstr "작성"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/xml/documents_views.xml:0
+#, python-format
+msgid "Create Spreadsheet"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Create chart"
+msgstr ""
+
+#. module: documents_spreadsheet
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_save_spreadsheet_template__create_uid
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_spreadsheet_contributor__create_uid
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_spreadsheet_template__create_uid
+msgid "Created by"
+msgstr "작성자"
+
+#. module: documents_spreadsheet
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_save_spreadsheet_template__create_date
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_spreadsheet_contributor__create_date
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_spreadsheet_template__create_date
+msgid "Created on"
+msgstr "작성일"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Current date and time as a date value."
+msgstr "현재 날짜와 시간을 날짜 값으로 입력합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Current date as a date value."
+msgstr "현재 날짜를 날짜 값으로 입력합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Cut"
+msgstr "잘라내기"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "DATEVALUE parameter '%s' cannot be parsed to date/time."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_save_spreadsheet_template__data
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_spreadsheet_template__data
+#, python-format
+msgid "Data"
+msgstr "데이터"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Data Series"
+msgstr "데이터 수열"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Data categories (labels)"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
+#, python-format
+msgid "Date"
+msgstr "날짜"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Date (9/26/2008)"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Date a number of months before/after another date."
+msgstr "다른 날짜 전/후 몇 개월 날짜 지정하기."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Date time (9/26/2008 22:43:00)"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/context_menu/pivot_side_panel.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/pivot_utils.js:0
+#, python-format
+msgid "Day"
+msgstr "일"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Day of the month that a specific date falls on."
+msgstr "특정 날짜가 속한 달의 요일"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Day of the week of the date provided (as number)."
+msgstr "입력한 날짜의 요일(숫자로 표시)."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
+#, python-format
+msgid "Default Value"
+msgstr "기본값"
+
+#. module: documents_spreadsheet
+#: model_terms:documents.folder,description:documents_spreadsheet.documents_spreadsheet_folder
+msgid "Default workspace of <strong>new spreadsheets</strong>"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Delete"
+msgstr "삭제"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Delete column %s"
+msgstr "%s 열 삭제"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Delete columns %s - %s"
+msgstr "%s - %s 열 삭제"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Delete row %s"
+msgstr "%s 행 삭제"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Delete rows %s - %s"
+msgstr "%s - %s 행 삭제"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Delete values"
+msgstr "값 삭제"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Did not find value '%s' in LOOKUP evaluation."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Did not find value '%s' in MATCH evaluation."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Did not find value '%s' in VLOOKUP evaluation."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Difference of two numbers."
+msgstr "두 숫자 간의 차이."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
+#, python-format
+msgid "Dimensions"
+msgstr "치수"
+
+#. module: documents_spreadsheet
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_documents_document__display_name
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_save_spreadsheet_template__display_name
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_spreadsheet_contributor__display_name
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_spreadsheet_template__display_name
+msgid "Display Name"
+msgstr "이름 표시"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/xml/pivot_dialog.xml:0
+#, python-format
+msgid "Display missing cells only"
+msgstr "누락된 셀만 표시"
+
+#. module: documents_spreadsheet
+#: model:ir.model,name:documents_spreadsheet.model_documents_document
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_spreadsheet_contributor__document_id
+msgid "Document"
+msgstr "문서"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
+#, python-format
+msgid "Domain"
+msgstr "도메인"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Duplicate"
+msgstr "복제"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/components/filter_editor_side_panel.js:0
+#, python-format
+msgid "Duplicated Label"
+msgstr "중복된 라벨"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Duration (27:51:38)"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
+#: model_terms:ir.ui.view,arch_db:documents_spreadsheet.spreadsheet_template_view_tree
+#, python-format
+msgid "Edit"
+msgstr "편집"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Ends with"
+msgstr "종료"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Equal."
+msgstr "동일."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Euler's number, e (~2.718) raised to a power."
+msgstr "오일러의 수 e(~2.718)를 거듭제곱한 값입니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Evaluation of function AVEDEV caused a divide by zero error."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Evaluation of function AVERAGE caused a divide by zero error."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Evaluation of function AVERAGE.WEIGHTED caused a divide by zero error."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Evaluation of function AVERAGEA caused a divide by zero error."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Evaluation of function AVERAGEIF caused a divide by zero error."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Evaluation of function AVERAGEIFS caused a divide by zero error."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Evaluation of function [[FUNCTION_NAME]] caused a divide by zero error."
+msgstr "함수 [[FUNCTION_NAME]]를 산출하는 중 0으로 나누기 오류가 발생했습니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
+#, python-format
+msgid "Field Matching"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/context_menu/menu_item_registry.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "File"
+msgstr "파일"
+
+#. module: documents_spreadsheet
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_documents_document__raw
+msgid "File Content (raw)"
+msgstr "파일 컨텐츠(raw)"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Fill Color"
+msgstr "색상 채우기"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/plugins/filters_plugin.js:0
+#, python-format
+msgid "Filter \"%s\" not found"
+msgstr "\"%s\" 필터를 찾을 수 없습니다"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/components/filter_editor_side_panel.js:0
+#, python-format
+msgid "Filter properties"
+msgstr "필터 속성"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/components/global_filters_side_panel.js:0
+#: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
+#, python-format
+msgid "Filters"
+msgstr "필터"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "First position of string found in text, case-sensitive."
+msgstr "텍스트에서 발견된 문자열의 첫 번째 위치, 대소문자 구분."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "First position of string found in text, ignoring case."
+msgstr "텍스트에서 발견된 문자열의 첫 번째 위치, 대소문자 구분 없음."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Font size"
+msgstr "글자 크기"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
+#, python-format
+msgid "For each pivot, match this filter to the relevant field"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Format"
+msgstr "형식"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Format cells if..."
+msgstr "다음과 같은 경우 셀 서식 지정..."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Format rules"
+msgstr "서식 지정 규칙"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Formatting style"
+msgstr "서식 스타일"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function ${name} has at least 2 arguments that are repeating. The maximum "
+"repeating arguments is 1."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function ${name} has at mandatory arguments declared after optional ones. "
+"All optional arguments must be after all mandatory arguments."
+msgstr ""
+"함수 ${name}에 선택적 인수 뒤에 선언된 필수 인수가 있습니다. 모든 선택적 인수는 모든 필수 인수 뒤에 나열되어야 합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function %s expects the parameter %s to be a single value or a single cell "
+"reference, not a range."
+msgstr "%s 함수의 %s 매개 변수는 범위가 아닌 단일 값 또는 단일 셀 참조여야 합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function %s expects the parameter %s to be reference to a cell or range, not"
+" a %s."
+msgstr "%s 함수의 %s 매개 변수는 %s가 아닌 셀 또는 범위를 참조해야 합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function CEILING expects the parameter '%s' to be positive when parameter "
+"'%s' is positive. Change '%s' from [%s] to a positive value."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Function CHAR parameter 1 value %s is out of range."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function DECIMAL expects the parameter '%s' to be a valid base %s "
+"representation. Change '%s' from [%s] to a valid base %s representation."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function DECIMAL expects the parameter '%s' to be between 2 and 36 "
+"inclusive. Change '%s' from [%s] to a value between 2 and 36."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Function DIVIDE parameter 2 cannot be zero."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Function FIND parameter 2 value should be non-empty."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function FIND parameter 3 value is 0. It should be greater than or equal to "
+"1."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function FLOOR expects the parameter '%s' to be positive when parameter '%s'"
+" is positive. Change '%s' from [%s] to a positive value."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Function LARGE parameter 2 value %s is out of range."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function LEFT parameter 2 value is negative. It should be positive or zero."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function MOD expects the parameter '%s' to be different from 0. Change '%s' "
+"to a value other than 0."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/functions/pivot_functions.js:0
+#, python-format
+msgid "Function PIVOT takes an even number of arguments."
+msgstr "피벗 함수는 짝수 인수를 사용합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function POWER expects the parameter '%s' to be an integer when parameter "
+"'%s' is negative. Change '%s' from [%s] to an integer value."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function RANDBETWEEN parameter '%s' value is %s. It should be greater than "
+"or equal to [%s]."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function REPLACE parameter 2 value is %s. It should be greater than or equal"
+" to 1."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function RIGHT parameter 2 value is negative. It should be positive or zero."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Function SEARCH parameter 2 value should be non-empty."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function SEARCH parameter 3 value is 0. It should be greater than or equal "
+"to 1."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Function SMALL parameter 2 value %s is out of range."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function SQRT parameter '%s' value is negative. It should be positive or "
+"zero. Change '%s' from [%s] to a positive value."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function SUBSTITUTE parameter 4 value is negative. It should be positive or "
+"zero."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Function WEEKDAY parameter 2 value %s is out of range."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Function WEEKNUM parameter 2 value %s is out of range."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Function WORKDAY.INTL parameter 3 cannot be equal to '1111111'."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Function [[FUNCTION_NAME]] caused a divide by zero error."
+msgstr "함수 [[FUNCTION_NAME]] 에서 0으로 나누기 오류가 발생했습니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function [[FUNCTION_NAME]] expects criteria_range and criterion to be in "
+"pairs."
+msgstr "[[FUNCTION_NAME]] 는 criteria_range와 criterion이 쌍으로 구성되는 함수입니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function [[FUNCTION_NAME]] expects criteria_range to have the same dimension"
+msgstr "함수 [[FUNCTION_NAME]]의 criteria_range는 동일한 차원을 가져야 합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function [[FUNCTION_NAME]] parameter 1 value is %S. Valid values are between"
+" -1 and 1 inclusive."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function [[FUNCTION_NAME]] parameter 1 value is %s. It should be greater "
+"than 0."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function [[FUNCTION_NAME]] parameter 1 value is %s. It should be greater "
+"than or equal to 1."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function [[FUNCTION_NAME]] parameter 1 value is %s. Valid values are between"
+" -1 and 1 exclusive."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function [[FUNCTION_NAME]] parameter 1 value is %s. Valid values are between"
+" -1 and 1 inclusive."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function [[FUNCTION_NAME]] parameter 1 value is %s. Valid values cannot be "
+"between -1 and 1 inclusive."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function [[FUNCTION_NAME]] parameter 2 value is %s. It should be one of: %s."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function [[FUNCTION_NAME]] parameter 2 value is %s. Valid values are between"
+" 1 and %s inclusive."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Function [[FUNCTION_NAME]] parameter 3 requires a number or a string."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function [[FUNCTION_NAME]] parameter 3 requires a string composed of 0 or 1."
+" Actual string is '%s'."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function [[FUNCTION_NAME]] parameter 3 requires a string or a number in the "
+"range 1-7 or 11-17. Actual number is %s."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Function [[FUNCTION_NAME]] parameter 3 requires a string with 7 characters. "
+"Actual string is '%s'."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/functions/pivot_functions.js:0
+#, python-format
+msgid "Get the absolute ID of an element in the pivot"
+msgstr "피벗에 있는 요소의 절대 ID 가져오기"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/functions/pivot_functions.js:0
+#, python-format
+msgid "Get the header of a pivot."
+msgstr "피벗의 헤더를 가져옵니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/functions/pivot_functions.js:0
+#, python-format
+msgid "Get the value from a filter."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/functions/pivot_functions.js:0
+#, python-format
+msgid "Get the value from a pivot."
+msgstr "피벗에서 값 가져오기."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Gets character associated with number."
+msgstr "숫자와 연관된 문자 가져오기."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Greater than"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Greater than or equal"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Greater than or equal to."
+msgstr "같거나 큼"
+
+#. module: documents_spreadsheet
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_documents_document__handler
+msgid "Handler"
+msgstr "핸들러"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Hide formulas"
+msgstr "수식 숨기기"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Hour component of a specific time."
+msgstr "특정 시간의 시간 단위 구성 요소입니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Hyperbolic cosecant of any real number."
+msgstr "모든 실수의 쌍곡코시컨트"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Hyperbolic cosine of any real number."
+msgstr "모든 실수의 쌍곡코사인"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Hyperbolic cotangent of any real number."
+msgstr "모든 실수의 쌍곡 코탄젠트"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Hyperbolic secant of any real number."
+msgstr "모든 실수의 쌍곡 시컨트"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Hyperbolic sine of any real number."
+msgstr "모든 실수의 쌍곡 사인"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Hyperbolic tangent of any real number."
+msgstr "모든 실수의 쌍곡 탄젠트"
+
+#. module: documents_spreadsheet
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_documents_document__id
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_save_spreadsheet_template__id
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_spreadsheet_contributor__id
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_spreadsheet_template__id
+msgid "ID"
+msgstr "ID"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "ISO week number of the year."
+msgstr "해당 연도의 ISO 주 번호."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "In FIND evaluation, cannot find '%s' within '%s'."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "In SEARCH evaluation, cannot find '%s' within '%s'."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Insert"
+msgstr "삽입"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Insert %s columns"
+msgstr "%s 열 삽입"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Insert %s columns left"
+msgstr "왼쪽에 %s 열 삽입"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Insert %s columns right"
+msgstr "오른쪽에 %s 열 삽입"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Insert %s rows"
+msgstr "%s 행 삽입"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Insert %s rows above"
+msgstr "위로 %s 행 삽입"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Insert %s rows below"
+msgstr "아래로 %s 행 삽입"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Insert column"
+msgstr "열 삽입"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Insert column left"
+msgstr "왼쪽에 열 삽입"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Insert column right"
+msgstr "오른쪽에 열 삽입"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/xml/pivot.xml:0
+#: code:addons/documents_spreadsheet/static/src/xml/pivot.xml:0
+#: code:addons/documents_spreadsheet/static/src/xml/pivot.xml:0
+#, python-format
+msgid "Insert in Spreadsheet"
+msgstr "스프레드시트에 삽입"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/components/spreadsheet_component.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/context_menu/pivot_context_menu.js:0
+#, python-format
+msgid "Insert pivot cell"
+msgstr "피벗 셀 삽입"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Insert row"
+msgstr "행 삽입"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Insert row above"
+msgstr "위로 행 삽입"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Insert row below"
+msgstr "아래로 행 삽입"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Invalid Expression"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/components/filter_editor_side_panel.js:0
+#, python-format
+msgid "Invalid fields"
+msgstr "필드 입력 오류"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Invalid formula"
+msgstr "잘못된 수식"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Invalid merge zone"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Invalid number of arguments for the %s function. Expected %s, but got %s "
+"instead."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Invalid sheet name"
+msgstr "잘못된 시트 이름"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Inverse cosine of a value, in radians."
+msgstr "라디안 단위 값의 역코사인"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Inverse cotangent of a value."
+msgstr "값의 아크코탄젠트."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Inverse hyperbolic cosine of a number."
+msgstr "숫자의 쌍곡 아크코사인."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Inverse hyperbolic cotangent of a value."
+msgstr "값의 쌍곡 아크코탄젠트"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Inverse hyperbolic sine of a number."
+msgstr "숫자의 쌍곡 아크사인."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Inverse hyperbolic tangent of a number."
+msgstr "숫자의 쌍곡 아크탄젠트"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Inverse sine of a value, in radians."
+msgstr "라디안 단위 값의 아크사인."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Inverse tangent of a value, in radians."
+msgstr "라디안 단위 값의 아크탄젠트"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Is equal to"
+msgstr "같음"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Italic"
+msgstr "기울기"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "LARGE has no valid input data."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "LOOKUP evaluates to an out of range column value %s."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "LOOKUP evaluates to an out of range row value %s."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "LOOKUP range must be a single row or a single column."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
+#, python-format
+msgid "Label"
+msgstr "라벨"
+
+#. module: documents_spreadsheet
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_documents_document____last_update
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_save_spreadsheet_template____last_update
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_spreadsheet_contributor____last_update
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_spreadsheet_template____last_update
+msgid "Last Modified on"
+msgstr "최근 수정"
+
+#. module: documents_spreadsheet
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_save_spreadsheet_template__write_uid
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_spreadsheet_contributor__write_uid
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_spreadsheet_template__write_uid
+msgid "Last Updated by"
+msgstr "최근 갱신한 사람"
+
+#. module: documents_spreadsheet
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_save_spreadsheet_template__write_date
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_spreadsheet_contributor__write_date
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_spreadsheet_template__write_date
+msgid "Last Updated on"
+msgstr "최근 갱신 날짜"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Last day of a month before or after a date."
+msgstr "날짜 전후 한 달의 마지막 날."
+
+#. module: documents_spreadsheet
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_spreadsheet_contributor__last_update_date
+msgid "Last update date"
+msgstr "최근 업데이트 날짜"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
+#, python-format
+msgid "Last updated at"
+msgstr "마지막 업데이트 날짜"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Length of a string."
+msgstr "문자열의 길이."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Less than"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Less than or equal"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Less than or equal to."
+msgstr "같거나 작음"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Less than."
+msgstr "보다 작음"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Line"
+msgstr "명세"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Logical `and` operator."
+msgstr "논리 `및` 연산자."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Logical `or` operator."
+msgstr "논리 `또는` 연산자."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Logical `xor` operator."
+msgstr "논리 `xor` 연산자."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Look up a value."
+msgstr "값을 검색합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "MATCH range must be a single row or a single column."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/context_menu/menu_item_registry.js:0
+#: model_terms:ir.ui.view,arch_db:documents_spreadsheet.spreadsheet_template_view_tree
+#, python-format
+msgid "Make a copy"
+msgstr "복사본 만들기"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Maximum numeric value in a dataset."
+msgstr "데이터 집합의 최대 숫자 값."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Maximum of values from a table-like range."
+msgstr "표와 같은 범위의 최대 값."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Maximum value in a numeric dataset."
+msgstr "숫자 데이터 집합의 최대값입니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/plugins/pivot_plugin.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/plugins/pivot_plugin.js:0
+#, python-format
+msgid "Measure"
+msgstr "측정"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
+#, python-format
+msgid "Measures"
+msgstr "측정"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Merging these cells will only preserve the top-leftmost value. Merge anyway?"
+msgstr "셀을 병합하면 가장 왼쪽 상단의 값만 보존됩니다. 병합을 진행할까요?"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Minimum numeric value in a dataset."
+msgstr "데이터 집합의 최소 숫자 값."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Minimum of values from a table-like range."
+msgstr "표와 같은 범위의 최소값."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Minimum value in a numeric dataset."
+msgstr "숫자 데이터 집합의 최소값입니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Minute component of a specific time."
+msgstr "특정 시간의 분 단위 구성 요소입니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
+#, python-format
+msgid "Model"
+msgstr "모델"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Modulo (remainder) operator."
+msgstr "모듈로 (나머지) 연산자."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/context_menu/pivot_side_panel.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/pivot_utils.js:0
+#: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
+#, python-format
+msgid "Month"
+msgstr "월"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Month of the year a specific date falls in"
+msgstr "특정 날짜가 속한 연도의 달"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "More than one match found in DGET evaluation."
+msgstr "DGET 함수에서 하나 이상의 일치 항목을 발견했습니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Move left"
+msgstr "왼쪽으로 이동"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Move right"
+msgstr "오른쪽으로 이동"
+
+#. module: documents_spreadsheet
+#: model_terms:ir.ui.view,arch_db:documents_spreadsheet.spreadsheet_template_view_search
+msgid "My Templates"
+msgstr "나의 서식"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "My data has title"
+msgstr ""
+
+#. module: documents_spreadsheet
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_spreadsheet_template__name
+msgid "Name"
+msgstr "이름"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Net working days between two dates (specifying weekends)."
+msgstr "두 날짜 사이의 순 근무일 (주말 지정)."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Net working days between two provided days."
+msgstr "제공된 두 날짜 사이의 순 근무일수."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/context_menu/menu_item_registry.js:0
+#, python-format
+msgid "New"
+msgstr "신규"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/components/filter_editor_side_panel.js:0
+#, python-format
+msgid "New %s filter"
+msgstr "새 %s 필터"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "New Chart"
+msgstr "신규 차트"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/components/spreadsheet_template_dialog.js:0
+#: code:addons/documents_spreadsheet/static/src/xml/pivot.xml:0
+#, python-format
+msgid "New Spreadsheet"
+msgstr "새 스프레드시트"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "New sheet"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/pivot_controller.js:0
+#, python-format
+msgid "New sheet inserted in '%s'"
+msgstr "'%s'에 새 시트가 삽입됨"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/components/spreadsheet_template_dialog.js:0
+#, python-format
+msgid "New sheet saved in Documents"
+msgstr "문서에 새 시트 저장"
+
+#. module: documents_spreadsheet
+#: model_terms:ir.ui.view,arch_db:documents_spreadsheet.spreadsheet_template_view_tree
+msgid "New spreadsheet"
+msgstr "새 스프레드시트"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/pivot_controller.js:0
+#: code:addons/documents_spreadsheet/static/src/js/spreadsheet_action.js:0
+#, python-format
+msgid "New spreadsheet created in Documents"
+msgstr "문서에 새 스프레드시트 저장"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/spreadsheet_template_action.js:0
+#, python-format
+msgid "New spreadsheet template created"
+msgstr "새 스프레드시트 서식 생성"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "No match."
+msgstr "일치하는 항목 없음"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Nope. Don't do that"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Not between"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Not contains"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Not equal"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Not equal."
+msgstr "동일하지 않음."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Not implemented operator %s for kind of conditional formatting:  %s"
+msgstr "조건부 서식의 종류에 대해 %s 연산자를 구현하지 않음:  %s"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/pivot_cache.js:0
+#, python-format
+msgid "Not implemented: %s"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Nth largest element from a data set."
+msgstr "데이터 집합에서 N번째로 큰 요소."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Nth smallest element in a data set."
+msgstr "데이터 집합에서 N번째로 작은 요소."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Number (1,000.12)"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Number of days between two dates."
+msgstr "두 날짜 사이의 일 수"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Number of empty values."
+msgstr "비어 있는 값의 수."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Number of working days from start date."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Numbers"
+msgstr "숫자"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Numerical average value in a dataset, ignoring text."
+msgstr "텍스트를 무시한 데이터 집합의 숫자 평균값."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Numerical average value in a dataset."
+msgstr "데이터 집합의 숫자 평균값."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "OR has no valid input data."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "One number divided by another."
+msgstr "한 숫자를 다른 숫자로 나눈 값"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Paste"
+msgstr "붙여넣기"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Paste format only"
+msgstr "서식만 붙여넣기"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Paste special"
+msgstr "선택하여 붙여넣기"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Paste value only"
+msgstr "값만 붙여넣기"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Paste values only"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Pasting here will remove existing merge(s). Paste anyway?"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Percent (10.12%)"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Pie"
+msgstr "파이"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
+#, python-format
+msgid "Pivot name"
+msgstr "피벗 이름"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/context_menu/pivot_context_menu.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/context_menu/pivot_side_panel.js:0
+#, python-format
+msgid "Pivot properties"
+msgstr "피벗 속성"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Please enter a valid sheet name"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Position of item in range that matches value."
+msgstr "값과 일치하는 범위 내 항목의 위치."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Positive square root of a positive number."
+msgstr "양수에 대한 양의 제곱근."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Preview text"
+msgstr "텍스트 미리보기"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Product of two numbers"
+msgstr "두 수의 곱"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Product of values from a table-like range."
+msgstr "표와 같은 범위의 곱한 값입니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/context_menu/pivot_side_panel.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/pivot_utils.js:0
+#: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
+#, python-format
+msgid "Quarter"
+msgstr "분기"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Random integer between two values, inclusive."
+msgstr "두 값 사이의 임의의 정수로, 두 값을 모두 포함합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/context_menu/pivot_context_menu.js:0
+#, python-format
+msgid "Re-insert pivot"
+msgstr "피벗 재삽입"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Redo"
+msgstr "되돌리기"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
+#, python-format
+msgid "Refresh measures"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
+#, python-format
+msgid "Related Model"
+msgstr "관련된 모델"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
+#, python-format
+msgid "Relation"
+msgstr "관련성"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
+#, python-format
+msgid "Remove"
+msgstr "제거"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Removes space characters."
+msgstr "간격 문자 제거하기"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
+#, python-format
+msgid "Rename"
+msgstr "이름 바꾸기"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Rename Sheet"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Replaces existing text with new text in a string."
+msgstr "R문자열의 기존 텍스트를 새 텍스트로 바꿉니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Replaces part of a text string with different text."
+msgstr "텍스트 문자열의 일부를 다른 텍스트로 바꿉니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Result of multiplying a series of numbers together."
+msgstr "일련의 숫자를 곱한 결과."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Returns a value depending on multiple logical expressions."
+msgstr "여러 논리 표현식에 따라 값을 반환합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Returns opposite of provided logical value."
+msgstr "제공된 논리 값의 반대되는 값을 반환합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Returns the maximum value in a range of cells, filtered by a set of "
+"criteria."
+msgstr "기준 집합에 따라 필터링된 셀 범위 내 최대값을 반환합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"Returns the minimum value in a range of cells, filtered by a set of "
+"criteria."
+msgstr "기준 집합에 따라 필터링된 셀 범위 내 최소값을 반환합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Returns value depending on logical expression."
+msgstr "Returns value depending on logical expression."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Rounds a number according to standard rules."
+msgstr "표준 규칙에 따라 숫자를 반올림합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Rounds a number up to the nearest odd integer."
+msgstr "숫자를 가장 가까운 홀수 정수로 반올림합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Rounds down a number."
+msgstr "숫자를 내림합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Rounds number down to nearest multiple of factor."
+msgstr "숫자를 가장 가까운 계수의 배수로 내림합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Rounds number up to nearest multiple of factor."
+msgstr "숫자를 가장 가까운 계수의 배수로 반올림합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Rounds up a number."
+msgstr "숫자를 반올림합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Row above"
+msgstr "행 위"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Row below"
+msgstr "행 아래"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "SMALL has no valid input data."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/context_menu/menu_item_registry.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
+#, python-format
+msgid "Save"
+msgstr "저장"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/context_menu/menu_item_registry.js:0
+#: model:ir.actions.act_window,name:documents_spreadsheet.save_spreadsheet_template_action
+#, python-format
+msgid "Save as Template"
+msgstr "서식으로 저장"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Secant of an angle provided in radians."
+msgstr "라디안 단위 각도의 할선"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/spreadsheet_selector_dialog.js:0
+#, python-format
+msgid "Select a spreadsheet to insert your pivot"
+msgstr ""
+
+#. module: documents_spreadsheet
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_spreadsheet_template__sequence
+msgid "Sequence"
+msgstr "순차적"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Series"
+msgstr "Series"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Sheet"
+msgstr "표"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Show formulas"
+msgstr "수식 보기"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Sine of an angle provided in radians."
+msgstr "라디안 단위 각도의 사인"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Single value from a table-like range."
+msgstr "표와 같은 범위의 단일 값입니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/spreadsheet_abstract_action.js:0
+#: model:documents.folder,name:documents_spreadsheet.documents_spreadsheet_folder
+#: model:ir.model.fields.selection,name:documents_spreadsheet.selection__documents_document__handler__spreadsheet
+#: model:ir.ui.menu,name:documents_spreadsheet.menu_technical_spreadsheet
+#: model_terms:ir.ui.view,arch_db:documents_spreadsheet.document_view_search_spreadsheet
+#, python-format
+msgid "Spreadsheet"
+msgstr "스프레드시트"
+
+#. module: documents_spreadsheet
+#: model:ir.model,name:documents_spreadsheet.model_spreadsheet_contributor
+msgid "Spreadsheet Contributor"
+msgstr "스프레드시트 기여자"
+
+#. module: documents_spreadsheet
+#: model_terms:ir.ui.view,arch_db:documents_spreadsheet.spreadsheet_document_view_kanban
+msgid "Spreadsheet Preview"
+msgstr "스프레드시트 미리보기"
+
+#. module: documents_spreadsheet
+#: model:ir.model,name:documents_spreadsheet.model_spreadsheet_template
+msgid "Spreadsheet Template"
+msgstr "스프레드시트 서식"
+
+#. module: documents_spreadsheet
+#: model:ir.model,name:documents_spreadsheet.model_save_spreadsheet_template
+msgid "Spreadsheet Template Save Wizard"
+msgstr "스프레드시트 서식 저장 마법사"
+
+#. module: documents_spreadsheet
+#: model:ir.actions.act_window,name:documents_spreadsheet.spreadsheet_template_action
+#: model:ir.ui.menu,name:documents_spreadsheet.menu_technical_spreadsheet_template
+msgid "Spreadsheet Templates"
+msgstr "스프레드시트 서식"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Standard deviation of entire population (text as 0)."
+msgstr "전체 모집단의 표준 편차(텍스트는 0으로 표시)."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Standard deviation of entire population from table."
+msgstr "표에서 전체 모집단의 표준 편차."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Standard deviation of entire population."
+msgstr "전체 모집단의 표준 편차."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Standard deviation of population sample from table."
+msgstr "표에서 모집단 표본의 표준 편차."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Standard deviation of sample (text as 0)."
+msgstr "표본의 표준 편차(텍스트는 0으로 표시)."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Standard deviation."
+msgstr "표준 편차."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Strictly greater than."
+msgstr "보다 큼."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Strikethrough"
+msgstr "취소선"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Substring from beginning of specified string."
+msgstr "지정된 문자열의 첫 부분 문자열 자르기입니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Sum of a series of numbers and/or cells."
+msgstr "일련의 숫자 및/또는 셀의 합계입니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Sum of two numbers."
+msgstr "두 수의 합."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Sum of values from a table-like range."
+msgstr "표와 같은 범위의 값 합계."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Sums a range depending on multiple criteria."
+msgstr "여러 기준에 따라 범위를 합산합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "TIMEVALUE parameter '%s' cannot be parsed to date/time."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Tangent of an angle provided in radians."
+msgstr "라디안 단위 각도의 탄젠트."
+
+#. module: documents_spreadsheet
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_save_spreadsheet_template__template_name
+msgid "Template Name"
+msgstr "서식명"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Tests whether two strings are identical."
+msgstr "두 문자열이 동일한지 검사합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
+#, python-format
+msgid "Text"
+msgstr "문자"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Text Color"
+msgstr "글꼴 색상"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/functions/pivot_functions.js:0
+#, python-format
+msgid "The argument %s is not a valid measure. Here are the measures: %s"
+msgstr "%s 인수는 유효한 측정값이 아닙니다. 측정값은 다음과 같습니다: %s"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The covariance of a dataset."
+msgstr "데이터 집합의 공분산."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"The function [[FUNCTION_NAME]] expects a boolean value, but '%s' is a text, "
+"and cannot be coerced to a number."
+msgstr "함수 [[FUNCTION_NAME]] 는 불리언 값을 예측하지만, '%s' 는 문자이므로 숫자로 강제로 지정할 수 없습니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"The function [[FUNCTION_NAME]] expects a number value, but '%s' is a string,"
+" and cannot be coerced to a number."
+msgstr "함수 [[FUNCTION_NAME]] 는 숫자 값을 예측했지만, '%s' 는 문자열이므로 숫자로 강제로 지정할 수 없습니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The logarithm of a number, base e (euler's number)."
+msgstr "숫자의 로그, 밑 e(오일러의 수)."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The number of numeric values in dataset."
+msgstr "데이터세트에 있는 숫자 값 개수."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The number of values in a dataset."
+msgstr "데이터세트에 포함된 값의 수."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The number pi."
+msgstr "파이 수."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "The sample covariance of a dataset."
+msgstr "데이터세트의 표본 공분산."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/functions/pivot_functions.js:0
+#, python-format
+msgid "There is no pivot with id \"%s\""
+msgstr "id \"%s\"가 포함된 피벗이 없습니다"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "This formula depends on invalid values"
+msgstr "이 수식은 유효하지 않은 값에 의존합니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"This formula has over 100 parts. It can't be processed properly, consider "
+"splitting it into multiple cells"
+msgstr "해당 수식은 100개가 넘습니다. 정상적으로 처리하려면 여러 셀로 분할하는 것이 좋습니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "This operation is not allowed with multiple selections."
+msgstr "이 작업은 여러 선택 항목에서는 허용되지 않습니다."
+
+#. module: documents_spreadsheet
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_save_spreadsheet_template__thumbnail
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_spreadsheet_template__thumbnail
+msgid "Thumbnail"
+msgstr "미리보기 이미지"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Time (10:43:00 PM)"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
+#, python-format
+msgid "Time Range"
+msgstr "시간 간격"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Title"
+msgstr "제목"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
+#, python-format
+msgid "Toggle favorite"
+msgstr "즐겨찾기 토글"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/components/spreadsheet_pivot_dialog.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/functions/pivot_functions.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/plugins/pivot_plugin.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/plugins/pivot_plugin.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/plugins/pivot_plugin.js:0
+#, python-format
+msgid "Total"
+msgstr "합계"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Truncates a number."
+msgstr "숫자를 잘라냅니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/plugins/pivot_plugin.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/plugins/pivot_plugin.js:0
+#, python-format
+msgid "Undefined"
+msgstr "미지정"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Undo"
+msgstr "취소"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/pivot_cache.js:0
+#, python-format
+msgid "Unknown operator: %s"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/components/spreadsheet_name.js:0
+#: code:addons/documents_spreadsheet/static/src/js/components/spreadsheet_template_dialog.js:0
+#: code:addons/documents_spreadsheet/static/src/js/pivot_controller.js:0
+#: code:addons/documents_spreadsheet/static/src/js/spreadsheet_action.js:0
+#, python-format
+msgid "Untitled spreadsheet"
+msgstr "제목없는 스프레드시트"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/spreadsheet_template_action.js:0
+#, python-format
+msgid "Untitled spreadsheet template"
+msgstr "제목 없는 스프레드시트 서식"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Update chart"
+msgstr ""
+
+#. module: documents_spreadsheet
+#: model:ir.model.fields,field_description:documents_spreadsheet.field_spreadsheet_contributor__user_id
+msgid "User"
+msgstr "사용자"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "VLOOKUP evaluates to an out of bounds range."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Value if it is not an error, otherwise 2nd argument."
+msgstr "에러가 아닌 경우의 값이며, 그렇지 않은 경우 두 번째 인수입니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Value interpreted as a percentage."
+msgstr "백분율로 해석할 값."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Variance of a population from a table-like range."
+msgstr "표와 같은 범위에서 모집단의 분산."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Variance of entire population (text as 0)."
+msgstr "전체 모집단의 분산 (텍스트는 0으로 표시)."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Variance of entire population."
+msgstr "전체 모집단의 분산."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Variance of population sample from table-like range."
+msgstr "표와 같은 범위에서 모집단 표본의 분산."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Variance of sample (text as 0)."
+msgstr "표본의 분산 (텍스트는 0으로 표시)."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Variance."
+msgstr "분산."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Vertical lookup."
+msgstr "세로로 조회."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "View"
+msgstr "보기"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Wait"
+msgstr "대기"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/context_menu/pivot_side_panel.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/pivot_utils.js:0
+#, python-format
+msgid "Week"
+msgstr "주"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Week number of the year."
+msgstr "해당 연도의 주 번호."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Weighted average."
+msgstr "가중 평균."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Whether a value is `true` or `false`."
+msgstr "값이 `true` 인지 `false` 인지 여부."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Whether a value is a number."
+msgstr "값이 숫자인지 여부."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Whether a value is an error."
+msgstr "값이 오류인지 여부."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Whether a value is non-textual."
+msgstr "값이 텍스트가 아닌지 여부."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Whether a value is text."
+msgstr "값이 텍스트인지 여부."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Whether the provided value is even."
+msgstr "입력한 값이 짝수인지 여부."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Wrong number of arguments. Expected an even number of arguments."
+msgstr "인수의 수가 잘못되었습니다. 인수의 수는 짝수로 예측되었습니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "XOR has no valid input data."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/context_menu/pivot_side_panel.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/pivot_utils.js:0
+#: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
+#, python-format
+msgid "Year"
+msgstr "년"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Year specified by a given date."
+msgstr "주어진 날짜로 지정된 연도입니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/spreadsheet_abstract_action.js:0
+#, python-format
+msgid ""
+"You do not have the rights to edit this spreadsheet. All the changes you "
+"will make will be lost at reload."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/functions/pivot_functions.js:0
+#, python-format
+msgid "[[FUNCTION_NAME]] cannot be called from the spreadsheet."
+msgstr "스프레드시트에서 [[FUNCTION_NAME]] 을 호출할 수 없습니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "[[FUNCTION_NAME]] criteria range must be at least 2 rows."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "[[FUNCTION_NAME]] has mismatched argument count %s vs %s."
+msgstr "[[FUNCTION_NAME]] 인수 수가 %s vs %s와 일치하지 않습니다."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid ""
+"function DATE parameter year should be greater or equal to 0 and lesser than"
+" 10000."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "function DATE result should not be lesser than 01/01/1900"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "function Time result should not be negative"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/xml/pivot_dialog.xml:0
+#, python-format
+msgid "has no cell missing from this sheet"
+msgstr "이 시트에는 누락된 셀이 없습니다"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "invalid expression"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "invalid format"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "nope"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "unmatched left parenthesis"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o-spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "wrong function call"
+msgstr ""
